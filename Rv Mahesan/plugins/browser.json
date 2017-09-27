@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "rvmahesan"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "rvmahesan"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "rvmahesan"
+        }
+    }
+}

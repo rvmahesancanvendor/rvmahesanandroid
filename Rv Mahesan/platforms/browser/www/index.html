@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+	
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<link rel="stylesheet" href="dist/css/phonon.css" />
+ 
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+   
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>மகேசன் 	&#10084; அனுஷி</title>
+</head>
+
+<body>
+
+
+            <header class="header-bar">
+                <div class="center">
+                    <h1 class="title">Welcome Rv <span style="color:red"> &#10084; </span>Ma</h1>
+                </div>
+            </header>
+			
+			
+     <div class="content">
+        <div  class="padded-full">
+ <div class="input-wrapper">
+                <input class="with-label maleName" type="text" id="input-1" placeholder="Enter Rv Name">
+                <label class="floating-label" for="input-1"></label>
+            </div>
+
+			<div class="input-wrapper">
+                <input class="with-label femaleName" type="text" id="input-2"  placeholder="Enter MA Name">
+            </div>
+		<div class="input-wrapper">	
+		  <button class="btn fit-parent primary enter_btn" type="submit">Enter</button>
+         </div>
+		</div>
+    </div>
+	  <script src="dist/js/phonon.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+		document.querySelector('.enter_btn').on('click', function(){
+			if(document.getElementById('input-1').value == "Mahesan" && document.getElementById('input-2').value == "Anushika" )
+				return phonon.dialog().alert("Mahesan says 'I Love You!!! UMMMMA Unaya Epa Amma AAkka!!! ", "Rv Loves MA", "Retry", "I Love you	too ");
+		else
+				return phonon.dialog().alert("Olunga Type pannavum", "Olunga Type pannavum", "Retry", "Mahesan & Anushi");
+
+		
+		});
+    </script>
+</body>
+
+</html>
